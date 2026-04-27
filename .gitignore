@@ -1,0 +1,67 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────────────
+ai_env/
+venv/
+env/
+.venv/
+.env
+
+# ── Trained Models & Large Binary Files ──────────────────
+# Generate these locally by running train_classifier.py
+stain_classifier_best.pkl
+features.npz
+class_mapping.json
+
+# YOLO weights (download automatically via ultralytics)
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+*.pt
+*.pth
+*.onnx
+
+# ── YOLO Training Output ──────────────────────────────────
+runs/
+
+# ── Dataset Images ────────────────────────────────────────
+# Large image datasets — store on Google Drive or share separately
+SeparatedDataset/
+Augmented/
+Orginal/
+
+# ── Jupyter Notebook Checkpoints ─────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── macOS ─────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── Logs & Temp ───────────────────────────────────────────
+*.log
+*.tmp
+*.cache
+test.json
+test.npz
+verification_report.json
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

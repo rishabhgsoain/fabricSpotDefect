@@ -1,0 +1,10 @@
+path: /Users/rishabhgosain/Downloads/FabricSpotDefect An Annotated Dataset for Identifying Spot  Defects in Different Fabric Types/FabricSpotDefect/Augmented/YOLOv8
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+names:
+  0: dirt_stain
+  1: grease_stain
+  2: oil_stain
